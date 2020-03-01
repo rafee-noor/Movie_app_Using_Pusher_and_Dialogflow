@@ -48,8 +48,8 @@ $('#target').on('submit', function(e){
  // /static/custom.js
 
     // Initialize Pusher
-const pusher = new Pusher('dc144ff97dcc00fadbda', {
-        cluster: 'ap2',
+const pusher = new Pusher('YOUR_PUSHER_KEY', {
+        cluster: 'YOUR_CLUSTER',
         encrypted: true
     });
 
