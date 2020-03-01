@@ -8,13 +8,13 @@ import pusher
 
 pusher_client = pusher.Pusher(
     #app_id=os.getenv('PUSHER_APP_ID'),
-    app_id="954845",
+    app_id="YOUR_PUSHER_APP_ID",
     #key=os.getenv('PUSHER_KEY'),
-    key="dc144ff97dcc00fadbda",
+    key="YOUR_PUSHER_KEY",
     #secret=os.getenv('PUSHER_SECRET'),
-    secret="79268bc36bbce944dc6a",
+    secret="YOUR_PUSHER_SECRET",
     #cluster=os.getenv('PUSHER_CLUSTER'),
-    cluster="ap2",
+    cluster="YOUR_PUSHER_CLUSTER",
     ssl=True)
 
 app = Flask(__name__)
